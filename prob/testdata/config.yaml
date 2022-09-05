@@ -1,0 +1,8 @@
+probabilistic:
+  # the percentage rate at which traces are going to be sampled. Defaults to
+  # zero, i.e.: no sample. Values greater or equal 100 are treated as
+  # "sample all traces".
+  sampling_percentage: 15.3
+  hash_seed: 22
+
+probabilistic/empty:
